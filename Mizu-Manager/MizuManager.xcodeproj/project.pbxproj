@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E13925F1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E13925E1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		6E1392621BFC7E1D00280D2D /* MZForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1392611BFC7E1D00280D2D /* MZForgotPasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6E27B5671BACFCA600051A98 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E27B5661BACFCA600051A98 /* Login.storyboard */; };
+		6E27B56A1BACFD4700051A98 /* MZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B5691BACFD4700051A98 /* MZLoginViewController.m */; };
+		6E27B5711BACFD8800051A98 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6E27B56D1BACFD8800051A98 /* LICENSE */; };
+		6E27B5721BACFD8800051A98 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B56F1BACFD8800051A98 /* NSDate+TimeAgo.m */; };
+		6E27B5731BACFD8800051A98 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E27B5701BACFD8800051A98 /* NSDateTimeAgo.bundle */; };
+		6E27B57E1BACFE0900051A98 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6E27B5751BACFE0900051A98 /* LICENSE */; };
+		6E27B57F1BACFE0900051A98 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B5771BACFE0900051A98 /* MBProgressHUD.m */; };
+		6E27B5801BACFE0900051A98 /* UIAlertView+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B57B1BACFE0900051A98 /* UIAlertView+MKBlockAdditions.m */; };
+		6E27B5811BACFE0900051A98 /* MZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B57D1BACFE0900051A98 /* MZReachability.m */; };
+		6E27B5851BAD002F00051A98 /* UIStoryboard+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B5841BAD002F00051A98 /* UIStoryboard+Helper.m */; };
+		6E27B5881BAD06C200051A98 /* MZBusinessTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B5871BAD06C200051A98 /* MZBusinessTableViewCell.m */; };
+		6E27B58B1BAD06E800051A98 /* MZManagerListBusinessTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27B58A1BAD06E800051A98 /* MZManagerListBusinessTableViewController.m */; };
+		6E357BAA1BA96C3D005C331D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E357BA91BA96C3D005C331D /* main.m */; };
+		6E357BAD1BA96C3D005C331D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E357BAC1BA96C3D005C331D /* AppDelegate.m */; };
+		6E357BB01BA96C3D005C331D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E357BAF1BA96C3D005C331D /* ViewController.m */; };
+		6E357BB51BA96C3D005C331D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E357BB41BA96C3D005C331D /* Images.xcassets */; };
+		6E357BB81BA96C3D005C331D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E357BB61BA96C3D005C331D /* LaunchScreen.xib */; };
+		6E357BC41BA96C3D005C331D /* MizuManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E357BC31BA96C3D005C331D /* MizuManagerTests.m */; };
+		6EB5833D1C00AD9500E1AAB4 /* MZSucceededTransactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5833C1C00AD9500E1AAB4 /* MZSucceededTransactionView.m */; settings = {ASSET_TAGS = (); }; };
+		6EBCFD6B1BA96CD6005A13D1 /* libMizu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBCFD6A1BA96CD6005A13D1 /* libMizu.a */; };
+		6EBCFD6E1BA96D64005A13D1 /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCFD6D1BA96D64005A13D1 /* Manager.storyboard */; };
+		6EBCFD7E1BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCFD721BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.m */; };
+		6EBCFD7F1BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCFD741BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.m */; };
+		6EBCFD801BA96D71005A13D1 /* MZManagerMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCFD761BA96D71005A13D1 /* MZManagerMainTableViewController.m */; };
+		6EBCFD811BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCFD781BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.m */; };
+		6EBCFD821BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCFD7A1BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.m */; };
+		6EBCFD831BA96D71005A13D1 /* MZManagerCheckInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCFD7D1BA96D71005A13D1 /* MZManagerCheckInTableViewCell.m */; };
+		6EDB137E1BF7FE080028AACB /* MizuToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDB137D1BF7FE080028AACB /* MizuToolkit.framework */; };
+		6EDB137F1BF7FE080028AACB /* MizuToolkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDB137D1BF7FE080028AACB /* MizuToolkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EFE8B3B1BE0BDB800AFE9A8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFE8B3A1BE0BDB800AFE9A8 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E357BBE1BA96C3D005C331D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E357B9C1BA96C3D005C331D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E357BA31BA96C3D005C331D;
+			remoteInfo = MizuManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EDB13801BF7FE080028AACB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6EDB137F1BF7FE080028AACB /* MizuToolkit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E13925D1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerCurrentCheckInTableViewCell.h; sourceTree = "<group>"; };
+		6E13925E1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerCurrentCheckInTableViewCell.m; sourceTree = "<group>"; };
+		6E1392601BFC7E1D00280D2D /* MZForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZForgotPasswordViewController.h; sourceTree = "<group>"; };
+		6E1392611BFC7E1D00280D2D /* MZForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZForgotPasswordViewController.m; sourceTree = "<group>"; };
+		6E27B5661BACFCA600051A98 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		6E27B5681BACFD4700051A98 /* MZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLoginViewController.h; sourceTree = "<group>"; };
+		6E27B5691BACFD4700051A98 /* MZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLoginViewController.m; sourceTree = "<group>"; };
+		6E27B56D1BACFD8800051A98 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6E27B56E1BACFD8800051A98 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		6E27B56F1BACFD8800051A98 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		6E27B5701BACFD8800051A98 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+		6E27B5751BACFE0900051A98 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6E27B5761BACFE0900051A98 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6E27B5771BACFE0900051A98 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6E27B5791BACFE0900051A98 /* MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockAdditions.h; sourceTree = "<group>"; };
+		6E27B57A1BACFE0900051A98 /* UIAlertView+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		6E27B57B1BACFE0900051A98 /* UIAlertView+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		6E27B57C1BACFE0900051A98 /* MZReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZReachability.h; sourceTree = "<group>"; };
+		6E27B57D1BACFE0900051A98 /* MZReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZReachability.m; sourceTree = "<group>"; };
+		6E27B5831BAD002F00051A98 /* UIStoryboard+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Helper.h"; sourceTree = "<group>"; };
+		6E27B5841BAD002F00051A98 /* UIStoryboard+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Helper.m"; sourceTree = "<group>"; };
+		6E27B5861BAD06C200051A98 /* MZBusinessTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBusinessTableViewCell.h; sourceTree = "<group>"; };
+		6E27B5871BAD06C200051A98 /* MZBusinessTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBusinessTableViewCell.m; sourceTree = "<group>"; };
+		6E27B5891BAD06E800051A98 /* MZManagerListBusinessTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerListBusinessTableViewController.h; sourceTree = "<group>"; };
+		6E27B58A1BAD06E800051A98 /* MZManagerListBusinessTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerListBusinessTableViewController.m; sourceTree = "<group>"; };
+		6E357BA41BA96C3D005C331D /* MizuManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MizuManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E357BA81BA96C3D005C331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E357BA91BA96C3D005C331D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E357BAB1BA96C3D005C331D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E357BAC1BA96C3D005C331D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E357BAE1BA96C3D005C331D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E357BAF1BA96C3D005C331D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E357BB41BA96C3D005C331D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E357BB71BA96C3D005C331D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6E357BBD1BA96C3D005C331D /* MizuManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MizuManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E357BC21BA96C3D005C331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E357BC31BA96C3D005C331D /* MizuManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MizuManagerTests.m; sourceTree = "<group>"; };
+		6E6E4EF41BC7B99300EC4564 /* MizuToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MizuToolkit.framework; path = "/Users/apisit/Library/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Debug-iphoneos/MizuToolkit.framework"; sourceTree = "<absolute>"; };
+		6EB5833B1C00AD9500E1AAB4 /* MZSucceededTransactionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSucceededTransactionView.h; sourceTree = "<group>"; };
+		6EB5833C1C00AD9500E1AAB4 /* MZSucceededTransactionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSucceededTransactionView.m; sourceTree = "<group>"; };
+		6EBCFD6A1BA96CD6005A13D1 /* libMizu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMizu.a; path = "../../../Library/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Debug-iphoneos/libMizu.a"; sourceTree = "<group>"; };
+		6EBCFD6D1BA96D64005A13D1 /* Manager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		6EBCFD711BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerCheckInDetailTableViewController.h; sourceTree = "<group>"; };
+		6EBCFD721BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerCheckInDetailTableViewController.m; sourceTree = "<group>"; };
+		6EBCFD731BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerCurrentCheckInTableViewController.h; sourceTree = "<group>"; };
+		6EBCFD741BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerCurrentCheckInTableViewController.m; sourceTree = "<group>"; };
+		6EBCFD751BA96D71005A13D1 /* MZManagerMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerMainTableViewController.h; sourceTree = "<group>"; };
+		6EBCFD761BA96D71005A13D1 /* MZManagerMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerMainTableViewController.m; sourceTree = "<group>"; };
+		6EBCFD771BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerPaymentHistoryDetailTableViewController.h; sourceTree = "<group>"; };
+		6EBCFD781BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerPaymentHistoryDetailTableViewController.m; sourceTree = "<group>"; };
+		6EBCFD791BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerPaymentHistoryTableViewController.h; sourceTree = "<group>"; };
+		6EBCFD7A1BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerPaymentHistoryTableViewController.m; sourceTree = "<group>"; };
+		6EBCFD7C1BA96D71005A13D1 /* MZManagerCheckInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZManagerCheckInTableViewCell.h; sourceTree = "<group>"; };
+		6EBCFD7D1BA96D71005A13D1 /* MZManagerCheckInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZManagerCheckInTableViewCell.m; sourceTree = "<group>"; };
+		6EBCFD841BA96EE3005A13D1 /* MizuManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MizuManager-Prefix.pch"; sourceTree = "<group>"; };
+		6EDB137D1BF7FE080028AACB /* MizuToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MizuToolkit.framework; path = "/Users/apisit/Library/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Release-iphoneos/MizuToolkit.framework"; sourceTree = "<absolute>"; };
+		6EFE8B3A1BE0BDB800AFE9A8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E357BA11BA96C3D005C331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDB137E1BF7FE080028AACB /* MizuToolkit.framework in Frameworks */,
+				6EFE8B3B1BE0BDB800AFE9A8 /* CoreBluetooth.framework in Frameworks */,
+				6EBCFD6B1BA96CD6005A13D1 /* libMizu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E357BBA1BA96C3D005C331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E27B56B1BACFD8700051A98 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6E27B5741BACFE0900051A98 /* MBProgressHUD */,
+				6E27B5781BACFE0900051A98 /* MKBlock */,
+				6E27B57C1BACFE0900051A98 /* MZReachability.h */,
+				6E27B57D1BACFE0900051A98 /* MZReachability.m */,
+				6E27B56C1BACFD8800051A98 /* NSDate-TimeAgo */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		6E27B56C1BACFD8800051A98 /* NSDate-TimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				6E27B56D1BACFD8800051A98 /* LICENSE */,
+				6E27B56E1BACFD8800051A98 /* NSDate+TimeAgo.h */,
+				6E27B56F1BACFD8800051A98 /* NSDate+TimeAgo.m */,
+				6E27B5701BACFD8800051A98 /* NSDateTimeAgo.bundle */,
+			);
+			path = "NSDate-TimeAgo";
+			sourceTree = "<group>";
+		};
+		6E27B5741BACFE0900051A98 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6E27B5751BACFE0900051A98 /* LICENSE */,
+				6E27B5761BACFE0900051A98 /* MBProgressHUD.h */,
+				6E27B5771BACFE0900051A98 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6E27B5781BACFE0900051A98 /* MKBlock */ = {
+			isa = PBXGroup;
+			children = (
+				6E27B5791BACFE0900051A98 /* MKBlockAdditions.h */,
+				6E27B57A1BACFE0900051A98 /* UIAlertView+MKBlockAdditions.h */,
+				6E27B57B1BACFE0900051A98 /* UIAlertView+MKBlockAdditions.m */,
+			);
+			path = MKBlock;
+			sourceTree = "<group>";
+		};
+		6E27B5821BAD002200051A98 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6E27B5831BAD002F00051A98 /* UIStoryboard+Helper.h */,
+				6E27B5841BAD002F00051A98 /* UIStoryboard+Helper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6E357B9B1BA96C3D005C331D = {
+			isa = PBXGroup;
+			children = (
+				6EDB137D1BF7FE080028AACB /* MizuToolkit.framework */,
+				6EFE8B3A1BE0BDB800AFE9A8 /* CoreBluetooth.framework */,
+				6E6E4EF41BC7B99300EC4564 /* MizuToolkit.framework */,
+				6EBCFD6A1BA96CD6005A13D1 /* libMizu.a */,
+				6E357BA61BA96C3D005C331D /* MizuManager */,
+				6E357BC01BA96C3D005C331D /* MizuManagerTests */,
+				6E357BA51BA96C3D005C331D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E357BA51BA96C3D005C331D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E357BA41BA96C3D005C331D /* MizuManager.app */,
+				6E357BBD1BA96C3D005C331D /* MizuManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E357BA61BA96C3D005C331D /* MizuManager */ = {
+			isa = PBXGroup;
+			children = (
+				6EB5833A1C00AD7F00E1AAB4 /* Views */,
+				6E27B5821BAD002200051A98 /* Categories */,
+				6E27B56B1BACFD8700051A98 /* Libraries */,
+				6EBCFD6F1BA96D71005A13D1 /* ViewControllers */,
+				6EBCFD6C1BA96D64005A13D1 /* Storyboards */,
+				6E357BAB1BA96C3D005C331D /* AppDelegate.h */,
+				6E357BAC1BA96C3D005C331D /* AppDelegate.m */,
+				6E357BAE1BA96C3D005C331D /* ViewController.h */,
+				6E357BB61BA96C3D005C331D /* LaunchScreen.xib */,
+				6E357BAF1BA96C3D005C331D /* ViewController.m */,
+				6E357BB41BA96C3D005C331D /* Images.xcassets */,
+				6E357BA71BA96C3D005C331D /* Supporting Files */,
+			);
+			path = MizuManager;
+			sourceTree = "<group>";
+		};
+		6E357BA71BA96C3D005C331D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E357BA81BA96C3D005C331D /* Info.plist */,
+				6E357BA91BA96C3D005C331D /* main.m */,
+				6EBCFD841BA96EE3005A13D1 /* MizuManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E357BC01BA96C3D005C331D /* MizuManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E357BC31BA96C3D005C331D /* MizuManagerTests.m */,
+				6E357BC11BA96C3D005C331D /* Supporting Files */,
+			);
+			path = MizuManagerTests;
+			sourceTree = "<group>";
+		};
+		6E357BC11BA96C3D005C331D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E357BC21BA96C3D005C331D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EB5833A1C00AD7F00E1AAB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EB5833B1C00AD9500E1AAB4 /* MZSucceededTransactionView.h */,
+				6EB5833C1C00AD9500E1AAB4 /* MZSucceededTransactionView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EBCFD6C1BA96D64005A13D1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCFD6D1BA96D64005A13D1 /* Manager.storyboard */,
+				6E27B5661BACFCA600051A98 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6EBCFD6F1BA96D71005A13D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCFD701BA96D71005A13D1 /* Manager */,
+				6E27B5681BACFD4700051A98 /* MZLoginViewController.h */,
+				6E27B5691BACFD4700051A98 /* MZLoginViewController.m */,
+				6E1392601BFC7E1D00280D2D /* MZForgotPasswordViewController.h */,
+				6E1392611BFC7E1D00280D2D /* MZForgotPasswordViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6EBCFD701BA96D71005A13D1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCFD711BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.h */,
+				6EBCFD721BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.m */,
+				6EBCFD731BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.h */,
+				6EBCFD741BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.m */,
+				6EBCFD751BA96D71005A13D1 /* MZManagerMainTableViewController.h */,
+				6EBCFD761BA96D71005A13D1 /* MZManagerMainTableViewController.m */,
+				6EBCFD771BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.h */,
+				6EBCFD781BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.m */,
+				6EBCFD791BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.h */,
+				6EBCFD7A1BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.m */,
+				6EBCFD7B1BA96D71005A13D1 /* Views */,
+				6E27B5891BAD06E800051A98 /* MZManagerListBusinessTableViewController.h */,
+				6E27B58A1BAD06E800051A98 /* MZManagerListBusinessTableViewController.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6EBCFD7B1BA96D71005A13D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E27B5861BAD06C200051A98 /* MZBusinessTableViewCell.h */,
+				6E27B5871BAD06C200051A98 /* MZBusinessTableViewCell.m */,
+				6EBCFD7C1BA96D71005A13D1 /* MZManagerCheckInTableViewCell.h */,
+				6EBCFD7D1BA96D71005A13D1 /* MZManagerCheckInTableViewCell.m */,
+				6E13925D1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.h */,
+				6E13925E1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E357BA31BA96C3D005C331D /* MizuManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E357BC71BA96C3D005C331D /* Build configuration list for PBXNativeTarget "MizuManager" */;
+			buildPhases = (
+				6E357BA01BA96C3D005C331D /* Sources */,
+				6E357BA11BA96C3D005C331D /* Frameworks */,
+				6E357BA21BA96C3D005C331D /* Resources */,
+				6EDB13801BF7FE080028AACB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MizuManager;
+			productName = MizuManager;
+			productReference = 6E357BA41BA96C3D005C331D /* MizuManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E357BBC1BA96C3D005C331D /* MizuManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E357BCA1BA96C3D005C331D /* Build configuration list for PBXNativeTarget "MizuManagerTests" */;
+			buildPhases = (
+				6E357BB91BA96C3D005C331D /* Sources */,
+				6E357BBA1BA96C3D005C331D /* Frameworks */,
+				6E357BBB1BA96C3D005C331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E357BBF1BA96C3D005C331D /* PBXTargetDependency */,
+			);
+			name = MizuManagerTests;
+			productName = MizuManagerTests;
+			productReference = 6E357BBD1BA96C3D005C331D /* MizuManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E357B9C1BA96C3D005C331D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Mizu;
+				TargetAttributes = {
+					6E357BA31BA96C3D005C331D = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = L8C72CRCSY;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6E357BBC1BA96C3D005C331D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6E357BA31BA96C3D005C331D;
+					};
+				};
+			};
+			buildConfigurationList = 6E357B9F1BA96C3D005C331D /* Build configuration list for PBXProject "MizuManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E357B9B1BA96C3D005C331D;
+			productRefGroup = 6E357BA51BA96C3D005C331D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E357BA31BA96C3D005C331D /* MizuManager */,
+				6E357BBC1BA96C3D005C331D /* MizuManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E357BA21BA96C3D005C331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E27B5711BACFD8800051A98 /* LICENSE in Resources */,
+				6EBCFD6E1BA96D64005A13D1 /* Manager.storyboard in Resources */,
+				6E27B57E1BACFE0900051A98 /* LICENSE in Resources */,
+				6E27B5731BACFD8800051A98 /* NSDateTimeAgo.bundle in Resources */,
+				6E357BB81BA96C3D005C331D /* LaunchScreen.xib in Resources */,
+				6E27B5671BACFCA600051A98 /* Login.storyboard in Resources */,
+				6E357BB51BA96C3D005C331D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E357BBB1BA96C3D005C331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E357BA01BA96C3D005C331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBCFD821BA96D71005A13D1 /* MZManagerPaymentHistoryTableViewController.m in Sources */,
+				6E27B5851BAD002F00051A98 /* UIStoryboard+Helper.m in Sources */,
+				6E27B5811BACFE0900051A98 /* MZReachability.m in Sources */,
+				6E357BB01BA96C3D005C331D /* ViewController.m in Sources */,
+				6EBCFD811BA96D71005A13D1 /* MZManagerPaymentHistoryDetailTableViewController.m in Sources */,
+				6EBCFD831BA96D71005A13D1 /* MZManagerCheckInTableViewCell.m in Sources */,
+				6EBCFD801BA96D71005A13D1 /* MZManagerMainTableViewController.m in Sources */,
+				6E27B58B1BAD06E800051A98 /* MZManagerListBusinessTableViewController.m in Sources */,
+				6E27B5801BACFE0900051A98 /* UIAlertView+MKBlockAdditions.m in Sources */,
+				6E357BAD1BA96C3D005C331D /* AppDelegate.m in Sources */,
+				6E357BAA1BA96C3D005C331D /* main.m in Sources */,
+				6E27B5881BAD06C200051A98 /* MZBusinessTableViewCell.m in Sources */,
+				6E27B57F1BACFE0900051A98 /* MBProgressHUD.m in Sources */,
+				6EBCFD7E1BA96D71005A13D1 /* MZManagerCheckInDetailTableViewController.m in Sources */,
+				6E13925F1BFB9A4600280D2D /* MZManagerCurrentCheckInTableViewCell.m in Sources */,
+				6EBCFD7F1BA96D71005A13D1 /* MZManagerCurrentCheckInTableViewController.m in Sources */,
+				6EB5833D1C00AD9500E1AAB4 /* MZSucceededTransactionView.m in Sources */,
+				6E27B5721BACFD8800051A98 /* NSDate+TimeAgo.m in Sources */,
+				6E1392621BFC7E1D00280D2D /* MZForgotPasswordViewController.m in Sources */,
+				6E27B56A1BACFD4700051A98 /* MZLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E357BB91BA96C3D005C331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E357BC41BA96C3D005C331D /* MizuManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E357BBF1BA96C3D005C331D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E357BA31BA96C3D005C331D /* MizuManager */;
+			targetProxy = 6E357BBE1BA96C3D005C331D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E357BB61BA96C3D005C331D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E357BB71BA96C3D005C331D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E357BC51BA96C3D005C331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E357BC61BA96C3D005C331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E357BC81BA96C3D005C331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Debug-iphoneos",
+				);
+				GCC_PREFIX_HEADER = "MizuManager/MizuManager-Prefix.pch";
+				INFOPLIST_FILE = MizuManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getmizu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E357BC91BA96C3D005C331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Debug-iphoneos",
+				);
+				GCC_PREFIX_HEADER = "MizuManager/MizuManager-Prefix.pch";
+				INFOPLIST_FILE = MizuManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Mizu-codqdkzahutzezehigggewvdhxkf/Build/Products/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getmizu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E357BCB1BA96C3D005C331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MizuManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getmizu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MizuManager.app/MizuManager";
+			};
+			name = Debug;
+		};
+		6E357BCC1BA96C3D005C331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MizuManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getmizu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MizuManager.app/MizuManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E357B9F1BA96C3D005C331D /* Build configuration list for PBXProject "MizuManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E357BC51BA96C3D005C331D /* Debug */,
+				6E357BC61BA96C3D005C331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E357BC71BA96C3D005C331D /* Build configuration list for PBXNativeTarget "MizuManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E357BC81BA96C3D005C331D /* Debug */,
+				6E357BC91BA96C3D005C331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E357BCA1BA96C3D005C331D /* Build configuration list for PBXNativeTarget "MizuManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E357BCB1BA96C3D005C331D /* Debug */,
+				6E357BCC1BA96C3D005C331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E357B9C1BA96C3D005C331D /* Project object */;
+}

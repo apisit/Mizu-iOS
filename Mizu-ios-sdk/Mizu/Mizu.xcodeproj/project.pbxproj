@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6E140A0C19D7762E00DB5C88 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E140A0D19D7762E00DB5C88 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				6E140A1219D7764500DB5C88 /* build framework */,
+			);
+			dependencies = (
+				6E140A1119D7763900DB5C88 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+		6E198A751AB6CA8C00BE87EA /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E198A781AB6CA8C00BE87EA /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				6E198A791AB6CAAC00BE87EA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6E140A2619D7769D00DB5C88 /* Mizu.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1319D7769D00DB5C88 /* Mizu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A2719D7769D00DB5C88 /* Mizu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A1419D7769D00DB5C88 /* Mizu.m */; };
+		6E140A2819D7769D00DB5C88 /* MizuBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1519D7769D00DB5C88 /* MizuBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A2919D7769D00DB5C88 /* MZBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1619D7769D00DB5C88 /* MZBaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A2A19D7769D00DB5C88 /* MZBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A1719D7769D00DB5C88 /* MZBaseObject.m */; };
+		6E140A2B19D7769D00DB5C88 /* MZBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1819D7769D00DB5C88 /* MZBusiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A2C19D7769D00DB5C88 /* MZBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A1919D7769D00DB5C88 /* MZBusiness.m */; };
+		6E140A2D19D7769D00DB5C88 /* MZCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1A19D7769D00DB5C88 /* MZCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A2E19D7769D00DB5C88 /* MZCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A1B19D7769D00DB5C88 /* MZCard.m */; };
+		6E140A2F19D7769D00DB5C88 /* MZCheckIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1C19D7769D00DB5C88 /* MZCheckIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A3019D7769D00DB5C88 /* MZCheckIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A1D19D7769D00DB5C88 /* MZCheckIn.m */; };
+		6E140A3119D7769D00DB5C88 /* MZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A1E19D7769D00DB5C88 /* MZConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A3219D7769D00DB5C88 /* MZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A1F19D7769D00DB5C88 /* MZConstants.m */; };
+		6E140A3319D7769D00DB5C88 /* MZMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A2019D7769D00DB5C88 /* MZMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A3419D7769D00DB5C88 /* MZMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A2119D7769D00DB5C88 /* MZMenu.m */; };
+		6E140A3519D7769D00DB5C88 /* MZOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A2219D7769D00DB5C88 /* MZOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A3619D7769D00DB5C88 /* MZOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A2319D7769D00DB5C88 /* MZOrder.m */; };
+		6E140A3719D7769D00DB5C88 /* MZUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E140A2419D7769D00DB5C88 /* MZUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E140A3819D7769D00DB5C88 /* MZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E140A2519D7769D00DB5C88 /* MZUser.m */; };
+		6E140A3A19D776C000DB5C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E140A3919D776C000DB5C88 /* Foundation.framework */; };
+		6E140A3C19D776D200DB5C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E140A3B19D776D200DB5C88 /* UIKit.framework */; };
+		6E140A3E19D776E200DB5C88 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E140A3D19D776E200DB5C88 /* CoreLocation.framework */; };
+		6E4DFDEE1A89F18D00CF2898 /* MZSocialAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4DFDEC1A89F18D00CF2898 /* MZSocialAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4DFDEF1A89F18D00CF2898 /* MZSocialAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DFDED1A89F18D00CF2898 /* MZSocialAccount.m */; };
+		6E588D5A19D77D6D003DC8CA /* MZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E588D5819D77D6D003DC8CA /* MZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E588D5B19D77D6D003DC8CA /* MZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E588D5919D77D6D003DC8CA /* MZHelper.m */; };
+		6E7173601B8471EA0002AB7B /* MZTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E71735D1B846E120002AB7B /* MZTransaction.m */; };
+		6E7173611B8471F20002AB7B /* MZTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E71735C1B846E120002AB7B /* MZTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E71736F1B859A410002AB7B /* MZFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E71736D1B859A410002AB7B /* MZFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7173701B859A410002AB7B /* MZFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E71736E1B859A410002AB7B /* MZFeedback.m */; };
+		6E9CBFB21BA139F900493B35 /* MZBusinessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9CBFB01BA139F900493B35 /* MZBusinessManager.h */; };
+		6E9CBFB31BA139F900493B35 /* MZBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9CBFB11BA139F900493B35 /* MZBusinessManager.m */; };
+		6EA062F11B0FAFD700045860 /* MZBusinessHour.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA062EF1B0FAFD700045860 /* MZBusinessHour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA062F21B0FAFD700045860 /* MZBusinessHour.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA062F01B0FAFD700045860 /* MZBusinessHour.m */; };
+		6EE013F91B332F2000164A98 /* MZBusinessSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE013F71B332F2000164A98 /* MZBusinessSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE013FA1B332F2000164A98 /* MZBusinessSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE013F81B332F2000164A98 /* MZBusinessSocial.m */; };
+		6EE223671A8369D7006A2528 /* MZQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE223651A8369D7006A2528 /* MZQuestion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE223681A8369D7006A2528 /* MZQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE223661A8369D7006A2528 /* MZQuestion.m */; };
+		6EE2236B1A836CAE006A2528 /* MZSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE223691A836CAE006A2528 /* MZSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE2236C1A836CAE006A2528 /* MZSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2236A1A836CAE006A2528 /* MZSetting.m */; };
+		6EE2236F1A84AD91006A2528 /* MZActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE2236D1A84AD91006A2528 /* MZActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE223701A84AD91006A2528 /* MZActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2236E1A84AD91006A2528 /* MZActivity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E140A1019D7763900DB5C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1409E619D7754F00DB5C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E1409ED19D7754F00DB5C88;
+			remoteInfo = Mizu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E1409EE19D7754F00DB5C88 /* libMizu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMizu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1409F919D7754F00DB5C88 /* MizuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MizuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1409FC19D7754F00DB5C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E140A1319D7769D00DB5C88 /* Mizu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mizu.h; sourceTree = "<group>"; };
+		6E140A1419D7769D00DB5C88 /* Mizu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mizu.m; sourceTree = "<group>"; };
+		6E140A1519D7769D00DB5C88 /* MizuBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MizuBlock.h; sourceTree = "<group>"; };
+		6E140A1619D7769D00DB5C88 /* MZBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBaseObject.h; sourceTree = "<group>"; };
+		6E140A1719D7769D00DB5C88 /* MZBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBaseObject.m; sourceTree = "<group>"; };
+		6E140A1819D7769D00DB5C88 /* MZBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBusiness.h; sourceTree = "<group>"; };
+		6E140A1919D7769D00DB5C88 /* MZBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBusiness.m; sourceTree = "<group>"; };
+		6E140A1A19D7769D00DB5C88 /* MZCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCard.h; sourceTree = "<group>"; };
+		6E140A1B19D7769D00DB5C88 /* MZCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCard.m; sourceTree = "<group>"; };
+		6E140A1C19D7769D00DB5C88 /* MZCheckIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCheckIn.h; sourceTree = "<group>"; };
+		6E140A1D19D7769D00DB5C88 /* MZCheckIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCheckIn.m; sourceTree = "<group>"; };
+		6E140A1E19D7769D00DB5C88 /* MZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZConstants.h; sourceTree = "<group>"; };
+		6E140A1F19D7769D00DB5C88 /* MZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZConstants.m; sourceTree = "<group>"; };
+		6E140A2019D7769D00DB5C88 /* MZMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMenu.h; sourceTree = "<group>"; };
+		6E140A2119D7769D00DB5C88 /* MZMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMenu.m; sourceTree = "<group>"; };
+		6E140A2219D7769D00DB5C88 /* MZOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZOrder.h; sourceTree = "<group>"; };
+		6E140A2319D7769D00DB5C88 /* MZOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZOrder.m; sourceTree = "<group>"; };
+		6E140A2419D7769D00DB5C88 /* MZUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUser.h; sourceTree = "<group>"; };
+		6E140A2519D7769D00DB5C88 /* MZUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUser.m; sourceTree = "<group>"; };
+		6E140A3919D776C000DB5C88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E140A3B19D776D200DB5C88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E140A3D19D776E200DB5C88 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6E4DFDEC1A89F18D00CF2898 /* MZSocialAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSocialAccount.h; sourceTree = "<group>"; };
+		6E4DFDED1A89F18D00CF2898 /* MZSocialAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSocialAccount.m; sourceTree = "<group>"; };
+		6E588D5819D77D6D003DC8CA /* MZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZHelper.h; sourceTree = "<group>"; };
+		6E588D5919D77D6D003DC8CA /* MZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZHelper.m; sourceTree = "<group>"; };
+		6E71735C1B846E120002AB7B /* MZTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransaction.h; sourceTree = "<group>"; };
+		6E71735D1B846E120002AB7B /* MZTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransaction.m; sourceTree = "<group>"; };
+		6E71736D1B859A410002AB7B /* MZFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFeedback.h; sourceTree = "<group>"; };
+		6E71736E1B859A410002AB7B /* MZFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFeedback.m; sourceTree = "<group>"; };
+		6E9CBFB01BA139F900493B35 /* MZBusinessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBusinessManager.h; sourceTree = "<group>"; };
+		6E9CBFB11BA139F900493B35 /* MZBusinessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBusinessManager.m; sourceTree = "<group>"; };
+		6EA062EF1B0FAFD700045860 /* MZBusinessHour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBusinessHour.h; sourceTree = "<group>"; };
+		6EA062F01B0FAFD700045860 /* MZBusinessHour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBusinessHour.m; sourceTree = "<group>"; };
+		6EE013F71B332F2000164A98 /* MZBusinessSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBusinessSocial.h; sourceTree = "<group>"; };
+		6EE013F81B332F2000164A98 /* MZBusinessSocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBusinessSocial.m; sourceTree = "<group>"; };
+		6EE223651A8369D7006A2528 /* MZQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZQuestion.h; sourceTree = "<group>"; };
+		6EE223661A8369D7006A2528 /* MZQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZQuestion.m; sourceTree = "<group>"; };
+		6EE223691A836CAE006A2528 /* MZSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSetting.h; sourceTree = "<group>"; };
+		6EE2236A1A836CAE006A2528 /* MZSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSetting.m; sourceTree = "<group>"; };
+		6EE2236D1A84AD91006A2528 /* MZActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZActivity.h; sourceTree = "<group>"; };
+		6EE2236E1A84AD91006A2528 /* MZActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZActivity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E1409EB19D7754F00DB5C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E140A3E19D776E200DB5C88 /* CoreLocation.framework in Frameworks */,
+				6E140A3C19D776D200DB5C88 /* UIKit.framework in Frameworks */,
+				6E140A3A19D776C000DB5C88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1409F619D7754F00DB5C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1409E519D7754F00DB5C88 = {
+			isa = PBXGroup;
+			children = (
+				6E140A3D19D776E200DB5C88 /* CoreLocation.framework */,
+				6E140A3B19D776D200DB5C88 /* UIKit.framework */,
+				6E140A3919D776C000DB5C88 /* Foundation.framework */,
+				6E1409F019D7754F00DB5C88 /* Mizu */,
+				6E1409FA19D7754F00DB5C88 /* MizuTests */,
+				6E1409EF19D7754F00DB5C88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E1409EF19D7754F00DB5C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1409EE19D7754F00DB5C88 /* libMizu.a */,
+				6E1409F919D7754F00DB5C88 /* MizuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1409F019D7754F00DB5C88 /* Mizu */ = {
+			isa = PBXGroup;
+			children = (
+				6E140A1319D7769D00DB5C88 /* Mizu.h */,
+				6E140A1419D7769D00DB5C88 /* Mizu.m */,
+				6E140A1519D7769D00DB5C88 /* MizuBlock.h */,
+				6E140A1619D7769D00DB5C88 /* MZBaseObject.h */,
+				6E140A1719D7769D00DB5C88 /* MZBaseObject.m */,
+				6E140A1819D7769D00DB5C88 /* MZBusiness.h */,
+				6E140A1919D7769D00DB5C88 /* MZBusiness.m */,
+				6E140A1A19D7769D00DB5C88 /* MZCard.h */,
+				6E140A1B19D7769D00DB5C88 /* MZCard.m */,
+				6E140A1C19D7769D00DB5C88 /* MZCheckIn.h */,
+				6E140A1D19D7769D00DB5C88 /* MZCheckIn.m */,
+				6E140A1E19D7769D00DB5C88 /* MZConstants.h */,
+				6E140A1F19D7769D00DB5C88 /* MZConstants.m */,
+				6E140A2019D7769D00DB5C88 /* MZMenu.h */,
+				6E140A2119D7769D00DB5C88 /* MZMenu.m */,
+				6E140A2219D7769D00DB5C88 /* MZOrder.h */,
+				6E140A2319D7769D00DB5C88 /* MZOrder.m */,
+				6E140A2419D7769D00DB5C88 /* MZUser.h */,
+				6E140A2519D7769D00DB5C88 /* MZUser.m */,
+				6E588D5819D77D6D003DC8CA /* MZHelper.h */,
+				6E588D5919D77D6D003DC8CA /* MZHelper.m */,
+				6EE223651A8369D7006A2528 /* MZQuestion.h */,
+				6EE223661A8369D7006A2528 /* MZQuestion.m */,
+				6EE223691A836CAE006A2528 /* MZSetting.h */,
+				6EE2236A1A836CAE006A2528 /* MZSetting.m */,
+				6EE2236D1A84AD91006A2528 /* MZActivity.h */,
+				6EE2236E1A84AD91006A2528 /* MZActivity.m */,
+				6E4DFDEC1A89F18D00CF2898 /* MZSocialAccount.h */,
+				6E4DFDED1A89F18D00CF2898 /* MZSocialAccount.m */,
+				6EA062EF1B0FAFD700045860 /* MZBusinessHour.h */,
+				6EA062F01B0FAFD700045860 /* MZBusinessHour.m */,
+				6EE013F71B332F2000164A98 /* MZBusinessSocial.h */,
+				6EE013F81B332F2000164A98 /* MZBusinessSocial.m */,
+				6E71735C1B846E120002AB7B /* MZTransaction.h */,
+				6E71735D1B846E120002AB7B /* MZTransaction.m */,
+				6E71736D1B859A410002AB7B /* MZFeedback.h */,
+				6E71736E1B859A410002AB7B /* MZFeedback.m */,
+				6E9CBFB01BA139F900493B35 /* MZBusinessManager.h */,
+				6E9CBFB11BA139F900493B35 /* MZBusinessManager.m */,
+			);
+			path = Mizu;
+			sourceTree = "<group>";
+		};
+		6E1409FA19D7754F00DB5C88 /* MizuTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E1409FB19D7754F00DB5C88 /* Supporting Files */,
+			);
+			path = MizuTests;
+			sourceTree = "<group>";
+		};
+		6E1409FB19D7754F00DB5C88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E1409FC19D7754F00DB5C88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E140A0519D7757C00DB5C88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E140A2D19D7769D00DB5C88 /* MZCard.h in Headers */,
+				6E140A2919D7769D00DB5C88 /* MZBaseObject.h in Headers */,
+				6E140A3319D7769D00DB5C88 /* MZMenu.h in Headers */,
+				6E140A2B19D7769D00DB5C88 /* MZBusiness.h in Headers */,
+				6E140A3719D7769D00DB5C88 /* MZUser.h in Headers */,
+				6E140A2F19D7769D00DB5C88 /* MZCheckIn.h in Headers */,
+				6E140A3119D7769D00DB5C88 /* MZConstants.h in Headers */,
+				6E140A2619D7769D00DB5C88 /* Mizu.h in Headers */,
+				6E588D5A19D77D6D003DC8CA /* MZHelper.h in Headers */,
+				6EE2236F1A84AD91006A2528 /* MZActivity.h in Headers */,
+				6EE223671A8369D7006A2528 /* MZQuestion.h in Headers */,
+				6E140A3519D7769D00DB5C88 /* MZOrder.h in Headers */,
+				6E4DFDEE1A89F18D00CF2898 /* MZSocialAccount.h in Headers */,
+				6EA062F11B0FAFD700045860 /* MZBusinessHour.h in Headers */,
+				6E71736F1B859A410002AB7B /* MZFeedback.h in Headers */,
+				6E9CBFB21BA139F900493B35 /* MZBusinessManager.h in Headers */,
+				6EE013F91B332F2000164A98 /* MZBusinessSocial.h in Headers */,
+				6E7173611B8471F20002AB7B /* MZTransaction.h in Headers */,
+				6EE2236B1A836CAE006A2528 /* MZSetting.h in Headers */,
+				6E140A2819D7769D00DB5C88 /* MizuBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E1409ED19D7754F00DB5C88 /* Mizu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1409FF19D7754F00DB5C88 /* Build configuration list for PBXNativeTarget "Mizu" */;
+			buildPhases = (
+				6E1409EA19D7754F00DB5C88 /* Sources */,
+				6E1409EB19D7754F00DB5C88 /* Frameworks */,
+				6E140A0519D7757C00DB5C88 /* Headers */,
+				6E140A0B19D775B100DB5C88 /* Prepare framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mizu;
+			productName = Mizu;
+			productReference = 6E1409EE19D7754F00DB5C88 /* libMizu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E1409F819D7754F00DB5C88 /* MizuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E140A0219D7754F00DB5C88 /* Build configuration list for PBXNativeTarget "MizuTests" */;
+			buildPhases = (
+				6E1409F519D7754F00DB5C88 /* Sources */,
+				6E1409F619D7754F00DB5C88 /* Frameworks */,
+				6E1409F719D7754F00DB5C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MizuTests;
+			productName = MizuTests;
+			productReference = 6E1409F919D7754F00DB5C88 /* MizuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E1409E619D7754F00DB5C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mizu Inc.";
+				TargetAttributes = {
+					6E1409ED19D7754F00DB5C88 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					6E1409F819D7754F00DB5C88 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					6E140A0C19D7762E00DB5C88 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					6E198A751AB6CA8C00BE87EA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E1409E919D7754F00DB5C88 /* Build configuration list for PBXProject "Mizu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E1409E519D7754F00DB5C88;
+			productRefGroup = 6E1409EF19D7754F00DB5C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1409ED19D7754F00DB5C88 /* Mizu */,
+				6E1409F819D7754F00DB5C88 /* MizuTests */,
+				6E140A0C19D7762E00DB5C88 /* Framework */,
+				6E198A751AB6CA8C00BE87EA /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1409F719D7754F00DB5C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E140A0B19D775B100DB5C88 /* Prepare framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n";
+		};
+		6E140A1219D7764500DB5C88 /* build framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "build framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+		6E198A791AB6CAAC00BE87EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"MIZU\";\ncompanyID=\"com.GETMIZU\";\ncompanyURL=\"http://getmizu.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${PROJECT_DIR}/Documentation\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E1409EA19D7754F00DB5C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7173601B8471EA0002AB7B /* MZTransaction.m in Sources */,
+				6E7173701B859A410002AB7B /* MZFeedback.m in Sources */,
+				6E140A2E19D7769D00DB5C88 /* MZCard.m in Sources */,
+				6E140A2C19D7769D00DB5C88 /* MZBusiness.m in Sources */,
+				6E140A3019D7769D00DB5C88 /* MZCheckIn.m in Sources */,
+				6E4DFDEF1A89F18D00CF2898 /* MZSocialAccount.m in Sources */,
+				6EE223681A8369D7006A2528 /* MZQuestion.m in Sources */,
+				6EA062F21B0FAFD700045860 /* MZBusinessHour.m in Sources */,
+				6E140A2A19D7769D00DB5C88 /* MZBaseObject.m in Sources */,
+				6E9CBFB31BA139F900493B35 /* MZBusinessManager.m in Sources */,
+				6EE223701A84AD91006A2528 /* MZActivity.m in Sources */,
+				6E140A3219D7769D00DB5C88 /* MZConstants.m in Sources */,
+				6E140A2719D7769D00DB5C88 /* Mizu.m in Sources */,
+				6EE2236C1A836CAE006A2528 /* MZSetting.m in Sources */,
+				6EE013FA1B332F2000164A98 /* MZBusinessSocial.m in Sources */,
+				6E588D5B19D77D6D003DC8CA /* MZHelper.m in Sources */,
+				6E140A3419D7769D00DB5C88 /* MZMenu.m in Sources */,
+				6E140A3819D7769D00DB5C88 /* MZUser.m in Sources */,
+				6E140A3619D7769D00DB5C88 /* MZOrder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1409F519D7754F00DB5C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E140A1119D7763900DB5C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E1409ED19D7754F00DB5C88 /* Mizu */;
+			targetProxy = 6E140A1019D7763900DB5C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E1409FD19D7754F00DB5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E1409FE19D7754F00DB5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E140A0019D7754F00DB5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Mizu;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E140A0119D7754F00DB5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Mizu;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E140A0319D7754F00DB5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MizuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getmizu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MizuTests;
+			};
+			name = Debug;
+		};
+		6E140A0419D7754F00DB5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MizuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.getmizu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MizuTests;
+			};
+			name = Release;
+		};
+		6E140A0E19D7762E00DB5C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E140A0F19D7762E00DB5C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E198A761AB6CA8C00BE87EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E198A771AB6CA8C00BE87EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E1409E919D7754F00DB5C88 /* Build configuration list for PBXProject "Mizu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1409FD19D7754F00DB5C88 /* Debug */,
+				6E1409FE19D7754F00DB5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1409FF19D7754F00DB5C88 /* Build configuration list for PBXNativeTarget "Mizu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E140A0019D7754F00DB5C88 /* Debug */,
+				6E140A0119D7754F00DB5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E140A0219D7754F00DB5C88 /* Build configuration list for PBXNativeTarget "MizuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E140A0319D7754F00DB5C88 /* Debug */,
+				6E140A0419D7754F00DB5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E140A0D19D7762E00DB5C88 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E140A0E19D7762E00DB5C88 /* Debug */,
+				6E140A0F19D7762E00DB5C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E198A781AB6CA8C00BE87EA /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E198A761AB6CA8C00BE87EA /* Debug */,
+				6E198A771AB6CA8C00BE87EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E1409E619D7754F00DB5C88 /* Project object */;
+}

@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Mizu
+
+  Created by Apisit Toompakdee on 3/3/15.
+  Copyright (c) 2015 Mizu. All rights reserved.
+*/
+"Hello" = "こんにちは";
+"Sign In"="ログイン";
+"Register"="登録";
+"Email"="メール";
+"Password"="パスワード";
+"Forgot password?"="パスワードをお忘れですか？";
+"Forgot password"="パスワードをお忘れですか";
+"Next"="次";
+"OR"="または";
+"Comments"="注釈";
+"First name"="ファーストネーム";
+"Last name"="苗字";
+"Create account"="アカウントを作成する";
+"Restaurants"="レストラン";
+"Request Restaurant"="リクエストのレストラン";
+"Missing your favorite restaurant?\nTell us about it!"="あなたのお気に入りのレストランが見つからない？それについて教えてください";
+"Logout"="ログアウト";
+"Settings"="設定";
+"Taste Preferences"="メニュー環境";
+"Tells us what you do and don't like."="Tells us what you do and don't like.";
+"App Settings"="アプリの設定";
+"Profile, Info, Logout."="Profile, Info, Logout.";
+"Contact Mizu"="Contact Mizu";
+"Say Hello!"="Say Hello!";

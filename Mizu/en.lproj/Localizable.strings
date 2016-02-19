@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Mizu
+
+  Created by Apisit Toompakdee on 3/3/15.
+  Copyright (c) 2015 Mizu. All rights reserved.
+*/
+"Hello" = "Hello";
+"Sign In"="Sign In";
+"Register"="Register";
+"Email"="Email";
+"Password"="Password";
+"Forgot password?"="Forgot password?";
+"Forgot password"="Forgot password";
+"Next"="Next";
+"OR"="OR";
+"Comments"="Comments";
+"First name"="First Name";
+"Last name"="Last Name";
+"Create account"="Create account";
+"Restaurants"="Restaurants";
+"Request Restaurant"="Request Restaurant";
+"Missing your favorite restaurant?\nTell us about it!"="Missing your favorite restaurant?\nTell us about it!";
+"Logout"="Logout";
+"Settings"="Settings";
+"Taste Preferences"="Taste Preferences";
+"Tells us what you do and don't like."="Tells us what you do and don't like.";
+"App Settings"="App Settings";
+"Profile, Info, Logout."="Profile, Info, Logout.";
+"Contact Mizu"="Contact Mizu";
+"Say Hello!"="Say Hello!";

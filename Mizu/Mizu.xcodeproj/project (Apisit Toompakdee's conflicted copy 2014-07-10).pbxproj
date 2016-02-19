@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E08FAEB196A075E0031B89A /* MZMovingLeftTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08FAEA196A075E0031B89A /* MZMovingLeftTransition.m */; };
+		6E08FAEE196A09A00031B89A /* MZRegistrationBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E08FAED196A09A00031B89A /* MZRegistrationBaseViewController.m */; };
+		6E2EC8381961225E000BBEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EC8371961225E000BBEC1 /* Foundation.framework */; };
+		6E2EC83A1961225E000BBEC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EC8391961225E000BBEC1 /* CoreGraphics.framework */; };
+		6E2EC83C1961225E000BBEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EC83B1961225E000BBEC1 /* UIKit.framework */; };
+		6E2EC8421961225E000BBEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EC8401961225E000BBEC1 /* InfoPlist.strings */; };
+		6E2EC8441961225E000BBEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2EC8431961225E000BBEC1 /* main.m */; };
+		6E2EC8481961225E000BBEC1 /* MZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2EC8471961225E000BBEC1 /* MZAppDelegate.m */; };
+		6E2EC84B1961225E000BBEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EC8491961225E000BBEC1 /* Main.storyboard */; };
+		6E2EC8501961225E000BBEC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EC84F1961225E000BBEC1 /* Images.xcassets */; };
+		6E2EC8571961225E000BBEC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EC8561961225E000BBEC1 /* XCTest.framework */; };
+		6E2EC8581961225E000BBEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EC8371961225E000BBEC1 /* Foundation.framework */; };
+		6E2EC8591961225E000BBEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EC83B1961225E000BBEC1 /* UIKit.framework */; };
+		6E2EC8611961225E000BBEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EC85F1961225E000BBEC1 /* InfoPlist.strings */; };
+		6E2EC8631961225E000BBEC1 /* MizuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2EC8621961225E000BBEC1 /* MizuTests.m */; };
+		6E85E60D1963A92B00D6A294 /* MZQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E60C1963A92B00D6A294 /* MZQuestion.m */; };
+		6E85E6131963AD1D00D6A294 /* MZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6121963AD1D00D6A294 /* MZObject.m */; };
+		6E85E6161963AD6100D6A294 /* MZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6151963AD6100D6A294 /* MZUser.m */; };
+		6E85E61A1963AE7D00D6A294 /* MZStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6191963AE7D00D6A294 /* MZStartViewController.m */; };
+		6E85E6201963AECD00D6A294 /* MZLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E61F1963AECD00D6A294 /* MZLogo.m */; };
+		6E85E6241963B39B00D6A294 /* MZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6231963B39B00D6A294 /* MZTextField.m */; };
+		6E85E62D1963BCDD00D6A294 /* MZBackArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E62C1963BCDD00D6A294 /* MZBackArrowButton.m */; };
+		6E85E6361963C14B00D6A294 /* MZRoundedCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6351963C14B00D6A294 /* MZRoundedCornerButton.m */; };
+		6E85E6471963CA7700D6A294 /* MZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E63C1963CA7700D6A294 /* MZBaseViewController.m */; };
+		6E85E6481963CA7700D6A294 /* MZRegisterPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E63F1963CA7700D6A294 /* MZRegisterPaymentViewController.m */; };
+		6E85E6491963CA7700D6A294 /* MZRegisterUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6411963CA7700D6A294 /* MZRegisterUserInfoViewController.m */; };
+		6E85E64A1963CA7700D6A294 /* MZRegisterVerifyMobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6431963CA7700D6A294 /* MZRegisterVerifyMobileViewController.m */; };
+		6E85E64B1963CA7700D6A294 /* MZSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6451963CA7700D6A294 /* MZSignInViewController.m */; };
+		6E85E64E1963CAC400D6A294 /* MZQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E64D1963CAC400D6A294 /* MZQuestionViewController.m */; };
+		6E85E6521963CC9C00D6A294 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85E6511963CC9C00D6A294 /* UIImage+ImageEffects.m */; };
+		6E85E6671963CDC300D6A294 /* nuts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6551963CDC300D6A294 /* nuts.jpg */; };
+		6E85E6681963CDC300D6A294 /* nuts@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6561963CDC300D6A294 /* nuts@2x.jpg */; };
+		6E85E6691963CDC300D6A294 /* fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6571963CDC300D6A294 /* fish.jpg */; };
+		6E85E66A1963CDC300D6A294 /* fish@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6581963CDC300D6A294 /* fish@2x.jpg */; };
+		6E85E66B1963CDC300D6A294 /* meat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6591963CDC300D6A294 /* meat.jpg */; };
+		6E85E66C1963CDC300D6A294 /* meat@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E65A1963CDC300D6A294 /* meat@2x.jpg */; };
+		6E85E66D1963CDC300D6A294 /* pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E65B1963CDC300D6A294 /* pork.jpg */; };
+		6E85E66E1963CDC300D6A294 /* pork@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E65C1963CDC300D6A294 /* pork@2x.jpg */; };
+		6E85E66F1963CDC300D6A294 /* seafood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E65D1963CDC300D6A294 /* seafood.jpg */; };
+		6E85E6701963CDC300D6A294 /* seafood@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E65E1963CDC300D6A294 /* seafood@2x.jpg */; };
+		6E85E6711963CDC300D6A294 /* spicy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E65F1963CDC300D6A294 /* spicy.jpg */; };
+		6E85E6721963CDC300D6A294 /* spicy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6601963CDC300D6A294 /* spicy@2x.jpg */; };
+		6E85E6731963CDC300D6A294 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6611963CDC300D6A294 /* splash.jpg */; };
+		6E85E6741963CDC300D6A294 /* splash@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6621963CDC300D6A294 /* splash@2x.jpg */; };
+		6E85E6751963CDC300D6A294 /* steak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6631963CDC300D6A294 /* steak.jpg */; };
+		6E85E6761963CDC300D6A294 /* steak@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6641963CDC300D6A294 /* steak@2x.jpg */; };
+		6E85E6771963CDC300D6A294 /* vegetarian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6651963CDC300D6A294 /* vegetarian.jpg */; };
+		6E85E6781963CDC300D6A294 /* vegetarian@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E85E6661963CDC300D6A294 /* vegetarian@2x.jpg */; };
+		6EBBB190196501430060B0A3 /* MZQuestionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBB18F196501430060B0A3 /* MZQuestionService.m */; };
+		6EBBB19319650AB80060B0A3 /* MZQuestionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBB19219650AB80060B0A3 /* MZQuestionCollectionViewCell.m */; };
+		6ED7FA41196E4981002D7CC1 /* MZListBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7FA40196E4981002D7CC1 /* MZListBusinessViewController.m */; };
+		6ED7FA43196E4B1C002D7CC1 /* Business.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED7FA42196E4B1C002D7CC1 /* Business.storyboard */; };
+		6ED7FA46196E4E90002D7CC1 /* MZBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7FA45196E4E90002D7CC1 /* MZBusiness.m */; };
+		6ED7FA48196E4EDB002D7CC1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED7FA47196E4EDB002D7CC1 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E2EC85A1961225E000BBEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E2EC82C1961225E000BBEC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2EC8331961225E000BBEC1;
+			remoteInfo = Mizu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E08FAE9196A075E0031B89A /* MZMovingLeftTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMovingLeftTransition.h; sourceTree = "<group>"; };
+		6E08FAEA196A075E0031B89A /* MZMovingLeftTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMovingLeftTransition.m; sourceTree = "<group>"; };
+		6E08FAEC196A09A00031B89A /* MZRegistrationBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRegistrationBaseViewController.h; sourceTree = "<group>"; };
+		6E08FAED196A09A00031B89A /* MZRegistrationBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRegistrationBaseViewController.m; sourceTree = "<group>"; };
+		6E2EC8341961225E000BBEC1 /* Mizu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mizu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2EC8371961225E000BBEC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E2EC8391961225E000BBEC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E2EC83B1961225E000BBEC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E2EC83F1961225E000BBEC1 /* Mizu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mizu-Info.plist"; sourceTree = "<group>"; };
+		6E2EC8411961225E000BBEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E2EC8431961225E000BBEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E2EC8451961225E000BBEC1 /* Mizu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mizu-Prefix.pch"; sourceTree = "<group>"; };
+		6E2EC8461961225E000BBEC1 /* MZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZAppDelegate.h; sourceTree = "<group>"; };
+		6E2EC8471961225E000BBEC1 /* MZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAppDelegate.m; sourceTree = "<group>"; };
+		6E2EC84A1961225E000BBEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E2EC84F1961225E000BBEC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E2EC8551961225E000BBEC1 /* MizuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MizuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2EC8561961225E000BBEC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E2EC85E1961225E000BBEC1 /* MizuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MizuTests-Info.plist"; sourceTree = "<group>"; };
+		6E2EC8601961225E000BBEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E2EC8621961225E000BBEC1 /* MizuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MizuTests.m; sourceTree = "<group>"; };
+		6E85E60B1963A92B00D6A294 /* MZQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZQuestion.h; sourceTree = "<group>"; };
+		6E85E60C1963A92B00D6A294 /* MZQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZQuestion.m; sourceTree = "<group>"; };
+		6E85E6111963AD1D00D6A294 /* MZObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZObject.h; sourceTree = "<group>"; };
+		6E85E6121963AD1D00D6A294 /* MZObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZObject.m; sourceTree = "<group>"; };
+		6E85E6141963AD6100D6A294 /* MZUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUser.h; sourceTree = "<group>"; };
+		6E85E6151963AD6100D6A294 /* MZUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUser.m; sourceTree = "<group>"; };
+		6E85E6181963AE7D00D6A294 /* MZStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZStartViewController.h; sourceTree = "<group>"; };
+		6E85E6191963AE7D00D6A294 /* MZStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZStartViewController.m; sourceTree = "<group>"; };
+		6E85E61E1963AECD00D6A294 /* MZLogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZLogo.h; sourceTree = "<group>"; };
+		6E85E61F1963AECD00D6A294 /* MZLogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZLogo.m; sourceTree = "<group>"; };
+		6E85E6221963B39B00D6A294 /* MZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTextField.h; sourceTree = "<group>"; };
+		6E85E6231963B39B00D6A294 /* MZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTextField.m; sourceTree = "<group>"; };
+		6E85E62B1963BCDD00D6A294 /* MZBackArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBackArrowButton.h; sourceTree = "<group>"; };
+		6E85E62C1963BCDD00D6A294 /* MZBackArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBackArrowButton.m; sourceTree = "<group>"; };
+		6E85E6341963C14B00D6A294 /* MZRoundedCornerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRoundedCornerButton.h; sourceTree = "<group>"; };
+		6E85E6351963C14B00D6A294 /* MZRoundedCornerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRoundedCornerButton.m; sourceTree = "<group>"; };
+		6E85E63B1963CA7700D6A294 /* MZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBaseViewController.h; sourceTree = "<group>"; };
+		6E85E63C1963CA7700D6A294 /* MZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBaseViewController.m; sourceTree = "<group>"; };
+		6E85E63E1963CA7700D6A294 /* MZRegisterPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRegisterPaymentViewController.h; sourceTree = "<group>"; };
+		6E85E63F1963CA7700D6A294 /* MZRegisterPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRegisterPaymentViewController.m; sourceTree = "<group>"; };
+		6E85E6401963CA7700D6A294 /* MZRegisterUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRegisterUserInfoViewController.h; sourceTree = "<group>"; };
+		6E85E6411963CA7700D6A294 /* MZRegisterUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRegisterUserInfoViewController.m; sourceTree = "<group>"; };
+		6E85E6421963CA7700D6A294 /* MZRegisterVerifyMobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZRegisterVerifyMobileViewController.h; sourceTree = "<group>"; };
+		6E85E6431963CA7700D6A294 /* MZRegisterVerifyMobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZRegisterVerifyMobileViewController.m; sourceTree = "<group>"; };
+		6E85E6441963CA7700D6A294 /* MZSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZSignInViewController.h; sourceTree = "<group>"; };
+		6E85E6451963CA7700D6A294 /* MZSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZSignInViewController.m; sourceTree = "<group>"; };
+		6E85E64C1963CAC400D6A294 /* MZQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZQuestionViewController.h; sourceTree = "<group>"; };
+		6E85E64D1963CAC400D6A294 /* MZQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZQuestionViewController.m; sourceTree = "<group>"; };
+		6E85E6501963CC9C00D6A294 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6E85E6511963CC9C00D6A294 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		6E85E6551963CDC300D6A294 /* nuts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nuts.jpg; sourceTree = "<group>"; };
+		6E85E6561963CDC300D6A294 /* nuts@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nuts@2x.jpg"; sourceTree = "<group>"; };
+		6E85E6571963CDC300D6A294 /* fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpg; sourceTree = "<group>"; };
+		6E85E6581963CDC300D6A294 /* fish@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fish@2x.jpg"; sourceTree = "<group>"; };
+		6E85E6591963CDC300D6A294 /* meat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat.jpg; sourceTree = "<group>"; };
+		6E85E65A1963CDC300D6A294 /* meat@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meat@2x.jpg"; sourceTree = "<group>"; };
+		6E85E65B1963CDC300D6A294 /* pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pork.jpg; sourceTree = "<group>"; };
+		6E85E65C1963CDC300D6A294 /* pork@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pork@2x.jpg"; sourceTree = "<group>"; };
+		6E85E65D1963CDC300D6A294 /* seafood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seafood.jpg; sourceTree = "<group>"; };
+		6E85E65E1963CDC300D6A294 /* seafood@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seafood@2x.jpg"; sourceTree = "<group>"; };
+		6E85E65F1963CDC300D6A294 /* spicy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spicy.jpg; sourceTree = "<group>"; };
+		6E85E6601963CDC300D6A294 /* spicy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spicy@2x.jpg"; sourceTree = "<group>"; };
+		6E85E6611963CDC300D6A294 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		6E85E6621963CDC300D6A294 /* splash@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "splash@2x.jpg"; sourceTree = "<group>"; };
+		6E85E6631963CDC300D6A294 /* steak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steak.jpg; sourceTree = "<group>"; };
+		6E85E6641963CDC300D6A294 /* steak@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "steak@2x.jpg"; sourceTree = "<group>"; };
+		6E85E6651963CDC300D6A294 /* vegetarian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetarian.jpg; sourceTree = "<group>"; };
+		6E85E6661963CDC300D6A294 /* vegetarian@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vegetarian@2x.jpg"; sourceTree = "<group>"; };
+		6EBBB18E196501430060B0A3 /* MZQuestionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZQuestionService.h; sourceTree = "<group>"; };
+		6EBBB18F196501430060B0A3 /* MZQuestionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZQuestionService.m; sourceTree = "<group>"; };
+		6EBBB19119650AB80060B0A3 /* MZQuestionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZQuestionCollectionViewCell.h; sourceTree = "<group>"; };
+		6EBBB19219650AB80060B0A3 /* MZQuestionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZQuestionCollectionViewCell.m; sourceTree = "<group>"; };
+		6ED7FA3F196E4981002D7CC1 /* MZListBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZListBusinessViewController.h; sourceTree = "<group>"; };
+		6ED7FA40196E4981002D7CC1 /* MZListBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZListBusinessViewController.m; sourceTree = "<group>"; };
+		6ED7FA42196E4B1C002D7CC1 /* Business.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Business.storyboard; sourceTree = "<group>"; };
+		6ED7FA44196E4E90002D7CC1 /* MZBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBusiness.h; sourceTree = "<group>"; };
+		6ED7FA45196E4E90002D7CC1 /* MZBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBusiness.m; sourceTree = "<group>"; };
+		6ED7FA47196E4EDB002D7CC1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2EC8311961225E000BBEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED7FA48196E4EDB002D7CC1 /* CoreLocation.framework in Frameworks */,
+				6E2EC83A1961225E000BBEC1 /* CoreGraphics.framework in Frameworks */,
+				6E2EC83C1961225E000BBEC1 /* UIKit.framework in Frameworks */,
+				6E2EC8381961225E000BBEC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2EC8521961225E000BBEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2EC8571961225E000BBEC1 /* XCTest.framework in Frameworks */,
+				6E2EC8591961225E000BBEC1 /* UIKit.framework in Frameworks */,
+				6E2EC8581961225E000BBEC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E08FAE8196A075E0031B89A /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				6E08FAE9196A075E0031B89A /* MZMovingLeftTransition.h */,
+				6E08FAEA196A075E0031B89A /* MZMovingLeftTransition.m */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		6E2EC82B1961225E000BBEC1 = {
+			isa = PBXGroup;
+			children = (
+				6E2EC83D1961225E000BBEC1 /* Mizu */,
+				6E2EC85C1961225E000BBEC1 /* MizuTests */,
+				6E2EC8361961225E000BBEC1 /* Frameworks */,
+				6E2EC8351961225E000BBEC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E2EC8351961225E000BBEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EC8341961225E000BBEC1 /* Mizu.app */,
+				6E2EC8551961225E000BBEC1 /* MizuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E2EC8361961225E000BBEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED7FA47196E4EDB002D7CC1 /* CoreLocation.framework */,
+				6E2EC8371961225E000BBEC1 /* Foundation.framework */,
+				6E2EC8391961225E000BBEC1 /* CoreGraphics.framework */,
+				6E2EC83B1961225E000BBEC1 /* UIKit.framework */,
+				6E2EC8561961225E000BBEC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E2EC83D1961225E000BBEC1 /* Mizu */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EC8461961225E000BBEC1 /* MZAppDelegate.h */,
+				6E2EC8471961225E000BBEC1 /* MZAppDelegate.m */,
+				6ED7FA42196E4B1C002D7CC1 /* Business.storyboard */,
+				6E2EC8491961225E000BBEC1 /* Main.storyboard */,
+				6EBBB18D196501320060B0A3 /* Services */,
+				6E85E6531963CDC300D6A294 /* Resources */,
+				6E85E64F1963CC9C00D6A294 /* Categories */,
+				6E85E61B1963AEAF00D6A294 /* MZToolkits */,
+				6E08FAE8196A075E0031B89A /* Transitions */,
+				6E85E6171963AE6900D6A294 /* ViewControllers */,
+				6E85E60A1963A91800D6A294 /* Models */,
+				6E2EC84F1961225E000BBEC1 /* Images.xcassets */,
+				6E2EC83E1961225E000BBEC1 /* Supporting Files */,
+			);
+			path = Mizu;
+			sourceTree = "<group>";
+		};
+		6E2EC83E1961225E000BBEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EC83F1961225E000BBEC1 /* Mizu-Info.plist */,
+				6E2EC8401961225E000BBEC1 /* InfoPlist.strings */,
+				6E2EC8431961225E000BBEC1 /* main.m */,
+				6E2EC8451961225E000BBEC1 /* Mizu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E2EC85C1961225E000BBEC1 /* MizuTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EC8621961225E000BBEC1 /* MizuTests.m */,
+				6E2EC85D1961225E000BBEC1 /* Supporting Files */,
+			);
+			path = MizuTests;
+			sourceTree = "<group>";
+		};
+		6E2EC85D1961225E000BBEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EC85E1961225E000BBEC1 /* MizuTests-Info.plist */,
+				6E2EC85F1961225E000BBEC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E85E60A1963A91800D6A294 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E6111963AD1D00D6A294 /* MZObject.h */,
+				6E85E6121963AD1D00D6A294 /* MZObject.m */,
+				6E85E60B1963A92B00D6A294 /* MZQuestion.h */,
+				6E85E60C1963A92B00D6A294 /* MZQuestion.m */,
+				6E85E6141963AD6100D6A294 /* MZUser.h */,
+				6E85E6151963AD6100D6A294 /* MZUser.m */,
+				6ED7FA44196E4E90002D7CC1 /* MZBusiness.h */,
+				6ED7FA45196E4E90002D7CC1 /* MZBusiness.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E85E6171963AE6900D6A294 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6ED7FA3E196E4968002D7CC1 /* Business */,
+				6E85E63A1963CA7700D6A294 /* Base */,
+				6E85E63D1963CA7700D6A294 /* Registration */,
+				6E85E6461963CA7700D6A294 /* SignIn */,
+				6E85E6181963AE7D00D6A294 /* MZStartViewController.h */,
+				6E85E6191963AE7D00D6A294 /* MZStartViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6E85E61B1963AEAF00D6A294 /* MZToolkits */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E6211963B39200D6A294 /* Controls */,
+				6E85E61D1963AEC400D6A294 /* Buttons */,
+				6E85E61C1963AEBF00D6A294 /* Views */,
+			);
+			path = MZToolkits;
+			sourceTree = "<group>";
+		};
+		6E85E61C1963AEBF00D6A294 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E61E1963AECD00D6A294 /* MZLogo.h */,
+				6E85E61F1963AECD00D6A294 /* MZLogo.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E85E61D1963AEC400D6A294 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E62B1963BCDD00D6A294 /* MZBackArrowButton.h */,
+				6E85E62C1963BCDD00D6A294 /* MZBackArrowButton.m */,
+				6E85E6341963C14B00D6A294 /* MZRoundedCornerButton.h */,
+				6E85E6351963C14B00D6A294 /* MZRoundedCornerButton.m */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		6E85E6211963B39200D6A294 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E6221963B39B00D6A294 /* MZTextField.h */,
+				6E85E6231963B39B00D6A294 /* MZTextField.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		6E85E63A1963CA7700D6A294 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E63B1963CA7700D6A294 /* MZBaseViewController.h */,
+				6E85E63C1963CA7700D6A294 /* MZBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6E85E63D1963CA7700D6A294 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E63E1963CA7700D6A294 /* MZRegisterPaymentViewController.h */,
+				6E85E63F1963CA7700D6A294 /* MZRegisterPaymentViewController.m */,
+				6E85E6401963CA7700D6A294 /* MZRegisterUserInfoViewController.h */,
+				6E85E6411963CA7700D6A294 /* MZRegisterUserInfoViewController.m */,
+				6E85E6421963CA7700D6A294 /* MZRegisterVerifyMobileViewController.h */,
+				6E85E6431963CA7700D6A294 /* MZRegisterVerifyMobileViewController.m */,
+				6E85E6441963CA7700D6A294 /* MZSignInViewController.h */,
+				6E85E6451963CA7700D6A294 /* MZSignInViewController.m */,
+				6E85E64C1963CAC400D6A294 /* MZQuestionViewController.h */,
+				6E85E64D1963CAC400D6A294 /* MZQuestionViewController.m */,
+				6EBBB19119650AB80060B0A3 /* MZQuestionCollectionViewCell.h */,
+				6EBBB19219650AB80060B0A3 /* MZQuestionCollectionViewCell.m */,
+				6E08FAEC196A09A00031B89A /* MZRegistrationBaseViewController.h */,
+				6E08FAED196A09A00031B89A /* MZRegistrationBaseViewController.m */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		6E85E6461963CA7700D6A294 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		6E85E64F1963CC9C00D6A294 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E6501963CC9C00D6A294 /* UIImage+ImageEffects.h */,
+				6E85E6511963CC9C00D6A294 /* UIImage+ImageEffects.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6E85E6531963CDC300D6A294 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E6541963CDC300D6A294 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E85E6541963CDC300D6A294 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6E85E6551963CDC300D6A294 /* nuts.jpg */,
+				6E85E6561963CDC300D6A294 /* nuts@2x.jpg */,
+				6E85E6571963CDC300D6A294 /* fish.jpg */,
+				6E85E6581963CDC300D6A294 /* fish@2x.jpg */,
+				6E85E6591963CDC300D6A294 /* meat.jpg */,
+				6E85E65A1963CDC300D6A294 /* meat@2x.jpg */,
+				6E85E65B1963CDC300D6A294 /* pork.jpg */,
+				6E85E65C1963CDC300D6A294 /* pork@2x.jpg */,
+				6E85E65D1963CDC300D6A294 /* seafood.jpg */,
+				6E85E65E1963CDC300D6A294 /* seafood@2x.jpg */,
+				6E85E65F1963CDC300D6A294 /* spicy.jpg */,
+				6E85E6601963CDC300D6A294 /* spicy@2x.jpg */,
+				6E85E6611963CDC300D6A294 /* splash.jpg */,
+				6E85E6621963CDC300D6A294 /* splash@2x.jpg */,
+				6E85E6631963CDC300D6A294 /* steak.jpg */,
+				6E85E6641963CDC300D6A294 /* steak@2x.jpg */,
+				6E85E6651963CDC300D6A294 /* vegetarian.jpg */,
+				6E85E6661963CDC300D6A294 /* vegetarian@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6EBBB18D196501320060B0A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EBBB18E196501430060B0A3 /* MZQuestionService.h */,
+				6EBBB18F196501430060B0A3 /* MZQuestionService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6ED7FA3E196E4968002D7CC1 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				6ED7FA3F196E4981002D7CC1 /* MZListBusinessViewController.h */,
+				6ED7FA40196E4981002D7CC1 /* MZListBusinessViewController.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2EC8331961225E000BBEC1 /* Mizu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2EC8661961225E000BBEC1 /* Build configuration list for PBXNativeTarget "Mizu" */;
+			buildPhases = (
+				6E2EC8301961225E000BBEC1 /* Sources */,
+				6E2EC8311961225E000BBEC1 /* Frameworks */,
+				6E2EC8321961225E000BBEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mizu;
+			productName = Mizu;
+			productReference = 6E2EC8341961225E000BBEC1 /* Mizu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E2EC8541961225E000BBEC1 /* MizuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2EC8691961225E000BBEC1 /* Build configuration list for PBXNativeTarget "MizuTests" */;
+			buildPhases = (
+				6E2EC8511961225E000BBEC1 /* Sources */,
+				6E2EC8521961225E000BBEC1 /* Frameworks */,
+				6E2EC8531961225E000BBEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E2EC85B1961225E000BBEC1 /* PBXTargetDependency */,
+			);
+			name = MizuTests;
+			productName = MizuTests;
+			productReference = 6E2EC8551961225E000BBEC1 /* MizuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E2EC82C1961225E000BBEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mizu;
+				TargetAttributes = {
+					6E2EC8541961225E000BBEC1 = {
+						TestTargetID = 6E2EC8331961225E000BBEC1;
+					};
+				};
+			};
+			buildConfigurationList = 6E2EC82F1961225E000BBEC1 /* Build configuration list for PBXProject "Mizu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E2EC82B1961225E000BBEC1;
+			productRefGroup = 6E2EC8351961225E000BBEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E2EC8331961225E000BBEC1 /* Mizu */,
+				6E2EC8541961225E000BBEC1 /* MizuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2EC8321961225E000BBEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E85E6721963CDC300D6A294 /* spicy@2x.jpg in Resources */,
+				6E2EC8501961225E000BBEC1 /* Images.xcassets in Resources */,
+				6E85E66D1963CDC300D6A294 /* pork.jpg in Resources */,
+				6E85E6691963CDC300D6A294 /* fish.jpg in Resources */,
+				6E85E6731963CDC300D6A294 /* splash.jpg in Resources */,
+				6E2EC8421961225E000BBEC1 /* InfoPlist.strings in Resources */,
+				6E85E6781963CDC300D6A294 /* vegetarian@2x.jpg in Resources */,
+				6E85E6711963CDC300D6A294 /* spicy.jpg in Resources */,
+				6E85E6681963CDC300D6A294 /* nuts@2x.jpg in Resources */,
+				6E85E66C1963CDC300D6A294 /* meat@2x.jpg in Resources */,
+				6E85E66A1963CDC300D6A294 /* fish@2x.jpg in Resources */,
+				6E85E6751963CDC300D6A294 /* steak.jpg in Resources */,
+				6E85E66F1963CDC300D6A294 /* seafood.jpg in Resources */,
+				6E2EC84B1961225E000BBEC1 /* Main.storyboard in Resources */,
+				6E85E6741963CDC300D6A294 /* splash@2x.jpg in Resources */,
+				6E85E6701963CDC300D6A294 /* seafood@2x.jpg in Resources */,
+				6ED7FA43196E4B1C002D7CC1 /* Business.storyboard in Resources */,
+				6E85E66B1963CDC300D6A294 /* meat.jpg in Resources */,
+				6E85E6671963CDC300D6A294 /* nuts.jpg in Resources */,
+				6E85E6761963CDC300D6A294 /* steak@2x.jpg in Resources */,
+				6E85E66E1963CDC300D6A294 /* pork@2x.jpg in Resources */,
+				6E85E6771963CDC300D6A294 /* vegetarian.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2EC8531961225E000BBEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2EC8611961225E000BBEC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2EC8301961225E000BBEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E85E6161963AD6100D6A294 /* MZUser.m in Sources */,
+				6E85E6491963CA7700D6A294 /* MZRegisterUserInfoViewController.m in Sources */,
+				6E85E6131963AD1D00D6A294 /* MZObject.m in Sources */,
+				6E85E64E1963CAC400D6A294 /* MZQuestionViewController.m in Sources */,
+				6E2EC8441961225E000BBEC1 /* main.m in Sources */,
+				6E08FAEE196A09A00031B89A /* MZRegistrationBaseViewController.m in Sources */,
+				6E85E62D1963BCDD00D6A294 /* MZBackArrowButton.m in Sources */,
+				6E85E60D1963A92B00D6A294 /* MZQuestion.m in Sources */,
+				6EBBB190196501430060B0A3 /* MZQuestionService.m in Sources */,
+				6E85E6241963B39B00D6A294 /* MZTextField.m in Sources */,
+				6E85E6201963AECD00D6A294 /* MZLogo.m in Sources */,
+				6E85E64B1963CA7700D6A294 /* MZSignInViewController.m in Sources */,
+				6E85E6471963CA7700D6A294 /* MZBaseViewController.m in Sources */,
+				6E85E6361963C14B00D6A294 /* MZRoundedCornerButton.m in Sources */,
+				6E85E61A1963AE7D00D6A294 /* MZStartViewController.m in Sources */,
+				6ED7FA41196E4981002D7CC1 /* MZListBusinessViewController.m in Sources */,
+				6E85E64A1963CA7700D6A294 /* MZRegisterVerifyMobileViewController.m in Sources */,
+				6E2EC8481961225E000BBEC1 /* MZAppDelegate.m in Sources */,
+				6E85E6481963CA7700D6A294 /* MZRegisterPaymentViewController.m in Sources */,
+				6E08FAEB196A075E0031B89A /* MZMovingLeftTransition.m in Sources */,
+				6ED7FA46196E4E90002D7CC1 /* MZBusiness.m in Sources */,
+				6E85E6521963CC9C00D6A294 /* UIImage+ImageEffects.m in Sources */,
+				6EBBB19319650AB80060B0A3 /* MZQuestionCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2EC8511961225E000BBEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2EC8631961225E000BBEC1 /* MizuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E2EC85B1961225E000BBEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2EC8331961225E000BBEC1 /* Mizu */;
+			targetProxy = 6E2EC85A1961225E000BBEC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E2EC8401961225E000BBEC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2EC8411961225E000BBEC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E2EC8491961225E000BBEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2EC84A1961225E000BBEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E2EC85F1961225E000BBEC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2EC8601961225E000BBEC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E2EC8641961225E000BBEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E2EC8651961225E000BBEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2EC8671961225E000BBEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mizu/Mizu-Prefix.pch";
+				INFOPLIST_FILE = "Mizu/Mizu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E2EC8681961225E000BBEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mizu/Mizu-Prefix.pch";
+				INFOPLIST_FILE = "Mizu/Mizu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E2EC86A1961225E000BBEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mizu.app/Mizu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mizu/Mizu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MizuTests/MizuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E2EC86B1961225E000BBEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mizu.app/Mizu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mizu/Mizu-Prefix.pch";
+				INFOPLIST_FILE = "MizuTests/MizuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E2EC82F1961225E000BBEC1 /* Build configuration list for PBXProject "Mizu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2EC8641961225E000BBEC1 /* Debug */,
+				6E2EC8651961225E000BBEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2EC8661961225E000BBEC1 /* Build configuration list for PBXNativeTarget "Mizu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2EC8671961225E000BBEC1 /* Debug */,
+				6E2EC8681961225E000BBEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2EC8691961225E000BBEC1 /* Build configuration list for PBXNativeTarget "MizuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2EC86A1961225E000BBEC1 /* Debug */,
+				6E2EC86B1961225E000BBEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E2EC82C1961225E000BBEC1 /* Project object */;
+}

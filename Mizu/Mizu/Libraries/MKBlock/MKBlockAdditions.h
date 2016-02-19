@@ -1,0 +1,17 @@
+//
+//  MKBlockAdditions.h
+//  UIKitCategoryAdditions
+//
+//  Created by Mugunth on 21/03/11.
+//  Copyright 2011 Steinlogic All rights reserved.
+//
+
+typedef void (^VoidBlock)();
+
+typedef void (^DismissBlock)(int buttonIndex);
+typedef void (^DismissWithTextBoxBlock)(int buttonIndex,NSString* value);
+typedef void (^DismissWithLoginBlock)(int buttonIndex,NSString* username,NSString* password);
+typedef void (^CancelBlock)();
+typedef void (^PhotoPickedBlock)(UIImage *chosenImage);
+
+#define kPhotoActionSheetTag 10000

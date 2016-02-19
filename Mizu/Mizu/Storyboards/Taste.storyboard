@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PmK-4N-so8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="uIK-fy-eyN">
+            <objects>
+                <navigationController id="PmK-4N-so8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ejg-t9-T6R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cC7-wC-k6y" kind="relationship" relationship="rootViewController" id="38k-em-Vnr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N19-7X-8TR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="-1553"/>
+        </scene>
+        <!--Taste Preference Table View Controller-->
+        <scene sceneID="oSd-1i-ftm">
+            <objects>
+                <tableViewController id="cC7-wC-k6y" customClass="MZTastePreferenceTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" id="ZuL-1W-Bii" customClass="MZDarkTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eSt-qS-yrK">
+                            <rect key="frame" x="0.0" y="136" width="320" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MZTasteOptionTableViewCell" id="a88-6L-nBd" customClass="MZTasteOptionTableViewCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a88-6L-nBd" id="qtc-nU-Phc">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zo-FL-Q3R">
+                                            <rect key="frame" x="15" y="1" width="37" height="50"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hW1-60-unR">
+                                            <rect key="frame" x="212" y="0.0" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="oVJ-TL-Ztq"/>
+                                                <constraint firstAttribute="height" constant="50" id="z8K-Kh-Ozo"/>
+                                            </constraints>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <state key="normal" image="tick_grey.png">
+                                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="selected" image="tick_green.png">
+                                                <color key="titleColor" red="0.47843137250000001" green="0.65098039220000004" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLg-Bp-dTz">
+                                            <rect key="frame" x="260" y="0.0" width="50" height="50"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <state key="normal" image="x_grey.png">
+                                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="selected" image="x_red.png">
+                                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="3zo-FL-Q3R" secondAttribute="bottom" constant="-2" id="7Hn-Rw-ddD"/>
+                                        <constraint firstItem="kLg-Bp-dTz" firstAttribute="leading" secondItem="hW1-60-unR" secondAttribute="trailing" constant="-2" id="8du-Ux-dzO"/>
+                                        <constraint firstItem="kLg-Bp-dTz" firstAttribute="top" secondItem="hW1-60-unR" secondAttribute="top" id="DJv-MH-6Te"/>
+                                        <constraint firstItem="kLg-Bp-dTz" firstAttribute="height" secondItem="hW1-60-unR" secondAttribute="height" id="Lgd-HX-r0z"/>
+                                        <constraint firstItem="3zo-FL-Q3R" firstAttribute="leading" secondItem="qtc-nU-Phc" secondAttribute="leading" constant="15" id="OV6-jb-O7k"/>
+                                        <constraint firstItem="3zo-FL-Q3R" firstAttribute="top" secondItem="qtc-nU-Phc" secondAttribute="top" constant="1" id="Us3-OB-wHX"/>
+                                        <constraint firstAttribute="trailing" secondItem="kLg-Bp-dTz" secondAttribute="trailing" constant="10" id="h1a-De-cXw"/>
+                                        <constraint firstItem="kLg-Bp-dTz" firstAttribute="top" secondItem="qtc-nU-Phc" secondAttribute="top" id="q6e-OZ-27m"/>
+                                        <constraint firstItem="kLg-Bp-dTz" firstAttribute="width" secondItem="hW1-60-unR" secondAttribute="width" id="x8R-kP-WDv"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="btnNo" destination="kLg-Bp-dTz" id="seJ-Tv-dn1"/>
+                                    <outlet property="btnYes" destination="hW1-60-unR" id="cQR-Ns-8u6"/>
+                                    <outlet property="lblTitle" destination="3zo-FL-Q3R" id="N8G-Vh-K3w"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="cC7-wC-k6y" id="Xb3-9A-JWw"/>
+                            <outlet property="delegate" destination="cC7-wC-k6y" id="lbj-nT-Tf8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="H9B-5E-L0b"/>
+                    <connections>
+                        <outlet property="lblAllDone" destination="eSt-qS-yrK" id="4vA-1x-Iua"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SrS-a5-U1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1125" y="-1554"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tick_green.png" width="21" height="17"/>
+        <image name="tick_grey.png" width="21" height="17"/>
+        <image name="x_grey.png" width="18" height="18"/>
+        <image name="x_red.png" width="18" height="18"/>
+    </resources>
+</document>
