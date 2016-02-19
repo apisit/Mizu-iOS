@@ -1,1 +1,0 @@
- const unsigned char MizuToolkitVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:MizuToolkit  PROJECT:MizuToolkit-1" "\n"; const double MizuToolkitVersionNumber __attribute__ ((used)) = (double)1.;

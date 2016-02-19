@@ -1,6 +1,0 @@
-framework module MizuToolkit {
-  umbrella header "MizuToolkit.h"
-
-  export *
-  module * { export * }
-}
